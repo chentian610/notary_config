@@ -101,8 +101,8 @@ webRemotConf:
     winPath: D:\\gongzheng
     linPath: /root/appserver/order_service
 web:
-  notary_short_name: 永欣公证
-  notary_full_name: 宁波永欣公证处
+  notary_short_name: 永欣公证master-github
+  notary_full_name: 宁波永欣公证处master-github
   notary_phone: 0574-87723751
   logo_img: images/logo_ygz.png
 
