@@ -105,5 +105,8 @@ web:
   notary_full_name: 宁波永欣公证处master-github
   notary_phone: 0574-87723751
   logo_img: images/logo_ygz.png
+my-config:
+
+  appName: my-app-chentianhui
 
 
