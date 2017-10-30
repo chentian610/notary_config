@@ -7,7 +7,7 @@ spring:
     index: 0
 
   datasource:
-    url: jdbc:mysql://192.168.1.12:3306/coupon_service
+    url: jdbc:mysql://192.168.1.52:3306/coupon_service
     username: root
     password: root
     testWhileIdle: true

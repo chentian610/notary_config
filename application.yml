@@ -1,13 +1,13 @@
 spring:
   jpa:
-    show-sql: true
+    show-sql: false
     hibernate:
       naming-strategy: org.hibernate.cfg.DefaultNamingStrategy
       ddl-auto: none
     properties:
       hibernate:
         dialect: org.hibernate.dialect.MySQL5InnoDBDialect
-        format_sql: false
+        format_sql: true
         query.substitutions: true 1, false 0
         default_batch_fetch_size: 50
         jdbc.batch_size: 50
@@ -46,64 +46,64 @@ hystrix:
   threadpool.default.coreSize: 10
 
 customconf:
-  user:
-    serverurl: http://www.otato.com.cn:23101
-    auth:
-      # apiurl: http://124.205.224.180:9074
-      apiurl: http://x.walker.asia:7071
-      granttype: client_credentials
-      clientid: admin
-      clientsecret: password
-      commonverifyface:
-        threshold: 0.8
-    datafile:
-      root: /root/appserver
-    ex:
-      busevitaskdetailurl: http://www.otato.com.cn:2000/business/evidence?task=detail&id=
-      carloantaskdetailurl: http://www.otato.com.cn:2000/business/car?task=detail&id=
-    linkface:
-      apiurl: https://v1-auth-api.visioncloudapi.com
-      apiid: 2cbe8866040f498693593b1de4fdce37
-      apisecret: ee601f68fed24e82b6c0bff7092a26c7
-      confidence: 0.8
-    baidu:
-      apikey: api_key
-      secretkey: secret_key
-      vopapi:
-        cuid: www.otato.com.cn
-        threshold: 0.7
-  product:
-    liveness:
-      baseUrl: http://192.168.1.80
-      codebaseUrl: http://192.168.1.80/static/livedetector.cab#version=1,0,0,1
   pay:
     wxpay:
-      notifyUrl: http://x.walker.asia:23141/user/orderNotify
+      notifyUrl: http://cz.xhgzc.cn:23141/user/orderNotify
       appid: wxf96e6c9b7f13c96a
       mch_id: 1485159242
-      total_fee: 1
-      spbill_create_ip: 192.168.1.1
+      total_fee: 3000
+      spbill_create_ip: 192.168.1.1 
       trade_type: NATIVE
       trade_key: 148515924214851592422017topcancn
       device_info: WEB
 
+  user:
+    serverurl: http://183.134.75.40:23101
+    auth:
+      apiurl: http://122.228.11.110:7071
+      granttype: client_credentials
+      clientid: hangzxhNotarialOffice
+      clientsecret: e43085c4f06fd664429a8ac4d1f6ad66
+      commonverifyface:
+        threshold: 0.7
+    datafile:
+      root: /root/appserver
+    ex:
+      busevitaskdetailurl: http://183.134.75.40:2000/business/evidence?task=detail&id=
+      busevitaskdetailurl4ent: http://183.134.75.40:2000/business/entevi?type=bq&task=detail&&id=
+      carloantaskdetailurl: http://183.134.75.40:2000/business/car?task=detail&id=
+      managerurl: http://183.134.75.40:2000
+    linkface:
+      apiurl: https://v1-auth-api.visioncloudapi.com
+      apiid: 2cbe8866040f498693593b1de4fdce37
+      apisecret: ee601f68fed24e82b6c0bff7092a26c7
+      confidence: 0.6
+    baidu:
+      apikey: iuMIFw50E1owt679FmPaA6wb
+      secretkey: 69182fd1207435c5d72a467e5bd95e60
+      vopapi:
+        cuid: cz.xhgzc.cn
+        threshold: 0.7
+  product:
+    liveness:
+      baseUrl: http://183.134.75.40:7080
+      codebaseUrl: http://183.134.75.40:7080/static/livedetector.cab#version=1,0,0,1
 webRemotConf:
   order:
-    websocketUrl: ws://www.otato.com.cn:23101/websocket
-    remoteDesUrl: https://cz.xhgzc.cn/bh/jar
-    guacamoleUrl: http://www.otato.com.cn:8080/guacamole
+    websocketUrl: ws://183.134.75.40:23101/websocket
+    remoteDesUrl: https://183.134.75.40/bh/jar
+    guacamoleUrl: http://183.134.75.40:2280/guacamole
     rdphost: b64>>eC53YWxrZXIuYXNpYQ==
     rdpport: 8443
-    rdphostname: x.walker.asia
-    rdphostpwd: 12345678
+    rdphostname: 192.168.1.157
+    rdphostpwd: Cloud@13691511450
     rdphostport: 3389
-    guacconnid: 2
+    guacconnid: 1
     winPath: D:\\gongzheng
     linPath: /root/appserver/order_service
 web:
-  notary_short_name: 永欣公证
-  notary_full_name: 宁波永欣公证处
-  notary_phone: 0574-87723751
-  logo_img: images/logo_ygz.png
-
+  notary_short_name: 西湖公证github
+  notary_full_name: 杭州市西湖公证处github
+  notary_phone: 0571-88393341-github
+  logo_img: images/logo.png
 

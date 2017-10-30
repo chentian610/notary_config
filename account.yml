@@ -7,9 +7,9 @@ spring:
     index: 0
 
   datasource:
-    url: jdbc:mysql://192.168.1.12:3306/account_service
+    url: jdbc:mysql://192.168.1.52:3306/user_service?characterEncoding=utf-8
     username: root
-    password: root
+    password: 1moodadmin
     testWhileIdle: true
     validationQuery: SELECT 1
 
@@ -40,14 +40,14 @@ spring:
       bindings:
         input:
           # destination: testq1
-          group: account
+          group: user
           consumer:
             concurrency: 1
             partitioned: false
             headerMode: raw
         output:
           # destination: testq2
-          group: account
+          group: user
           producer:
             # partitionKeyExpression: null
             # partitionKeyExtractorClass: null
@@ -56,6 +56,9 @@ spring:
             partitionCount: 1
             headerMode: raw
 
+multipart:
+  maxFileSize: 100Mb
+  maxRequestSize: 100Mb
 
 
 

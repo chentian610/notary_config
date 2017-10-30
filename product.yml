@@ -1,15 +1,23 @@
 server:
-  port: 23141
+  port: ${port:23141}
+  tomcat:
+    max-threads: 1000
+    basedir: /root/appserver/tmp/tomcat
 
 spring:
   application:
     name: product
     index: 0
 
+  mvc:
+    view:
+      prefix: /WEB-INF/
+      suffix: .jsp
+
   datasource:
-    url: jdbc:mysql://192.168.1.12:3306/product_service
+    url: jdbc:mysql://192.168.1.52:3306/product_service
     username: root
-    password: root
+    password: 1moodadmin
     testWhileIdle: true
     validationQuery: SELECT 1
 
@@ -55,7 +63,6 @@ spring:
             # partitionSelectorClass: null
             partitionCount: 1
             headerMode: raw
-
 
 
 
