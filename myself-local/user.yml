@@ -56,8 +56,4 @@ spring:
             partitionCount: 1
             headerMode: raw
 
-multipart:
-  maxFileSize: 100Mb
-  maxRequestSize: 100Mb
-
 

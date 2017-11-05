@@ -112,3 +112,6 @@ web:
   notary_phone: 0571-8772****
   logo_img: images/logo_ygz.png
 
+multipart:
+  maxFileSize: 200Mb
+  maxRequestSize: 200Mb

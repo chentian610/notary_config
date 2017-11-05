@@ -105,3 +105,6 @@ web:
   notary_full_name: 宁波永欣公证处
   notary_phone: 0574-87723751
   logo_img: images/logo_ygz.png
+multipart:
+  maxFileSize: 200Mb
+  maxRequestSize: 200Mb

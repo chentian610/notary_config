@@ -106,3 +106,6 @@ web:
   notary_full_name: 杭州市西湖公证处
   notary_phone: 0571-88393341
   logo_img: images/logo.png
+multipart:
+  maxFileSize: 200Mb
+  maxRequestSize: 200Mb
