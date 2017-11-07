@@ -56,8 +56,10 @@ customconf:
       commonverifyface:
         threshold: 0.7
     datafile:
+#    证据存放路径
       root: /root/appserver
     ex:
+#    提供给2000使用
       busevitaskdetailurl: http://cz.nbyxgz.com:2000/business/evidence?task=detail&id=
       busevitaskdetailurl4ent: http://cz.nbyxgz.com:2000/business/entevi?type=bq&task=detail&id=
       carloantaskdetailurl: http://cz.nbyxgz.com:2000/business/entevi?type=htgz&task=detail&id=
@@ -75,6 +77,7 @@ customconf:
         threshold: 0.7
   product:
     liveness:
+#    活体检测
       baseUrl: http://122.228.11.110:7080
       codebaseUrl: http://122.228.11.110:7080/static/livedetector.cab#version=1,0,0,1
   pay:
@@ -91,12 +94,12 @@ webRemotConf:
   order:
     websocketUrl: ws://cz.nbyxgz.com:23101/websocket
     remoteDesUrl: https://cz.nbyxgz.com/bh/jar
-    guacamoleUrl: http://cz.nbyxgz.com:2280/guacamole
+    guacamoleUrl: http://cz.nbyxgz.com:80/guacamole
     rdphost: b64>>eC53YWxrZXIuYXNpYQ==
     rdpport: 8443
-    rdphostname: 192.168.1.66
-    rdphostpwd: Cloud@13705739112
-    rdphostport: 3389
+    rdphostname: 192.168.0.6
+    rdphostpwd: woshilaoda@2008
+    rdphostport: 33389
     guacconnid: 1
     winPath: D:\\gongzheng
     linPath: /root/appserver/order_service

@@ -26,20 +26,20 @@ spring:
     stream:
       kafka:
         binder:
-          brokers: trustserver:9092
+          brokers: 127.0.0.1:9092
 #192.168.239.129:9092,192.168.239.129:9093,192.168.239.129:9094
-          zkNodes: trustserver:2181
+          zkNodes: 127.0.0.1:2181
 #192.168.239.129:2181
 
 # Discovery Server Access
 eureka:
   instance:
-    hostname: trustserver
+    hostname: 127.0.0.1
     preferIpAddress: true
 
   client:
     serviceUrl:
-      defaultZone: http://trustserver:1111/eureka/
+      defaultZone: http://127.0.0.1:1111/eureka/
 
 hystrix:
   command.default.execution.isolation.thread.timeoutInMilliseconds: 3000
