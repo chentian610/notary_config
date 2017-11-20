@@ -105,11 +105,9 @@ web:
   notary_full_name: 浙江省嘉兴市誉天公证处
   notary_phone: 0573-82082290
   logo_img: images/logo_ygz.png
-  phone_recorder_jdbc_url: jdbc:mysql://192.168.1.23:3306/PZDF_RMS?useUnicode=true&characterEncoding=utf8&autoReconnect=true&rewriteBatchedStatements=TRUE
-  phone_recorder_jdbc_driver_name: com.mysql.jdbc.Driver
-  phone_recorder_jdbc_user: root
-  phone_recorder_jdbc_password: 1moodadmin
-  phone_recorder_jdbc_dhly: DHLY
+  notary_index_css_uri: css/comLogin/jiaxing-yutian.css
+  notary_index_img_prefix: images/comLogin/jiaxing-yutian/
+  register_code: 浙ICP备11037377号-5
 multipart:
   maxFileSize: 200Mb
   maxRequestSize: 200Mb

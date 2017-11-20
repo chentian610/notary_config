@@ -108,6 +108,9 @@ web:
   notary_full_name: 宁波永欣公证处
   notary_phone: 0574-87723751
   logo_img: images/logo_ygz.png
+  notary_index_css_uri: css/comLogin/ningbo-yongxin.css
+  notary_index_img_prefix: images/comLogin/ningbo-yongxin/
+  register_code: 浙ICP备11037377号-5
 multipart:
   maxFileSize: 200Mb
   maxRequestSize: 200Mb
