@@ -113,6 +113,7 @@ web:
   logo_img: images/logo_ygz.png
   notary_index_css_uri: css/comLogin/myself-yanshi.css
   notary_index_img_prefix: images/comLogin/myself-yanshi/
+  notary_login_title: 易公正身份识别系统
   register_code: 易公证
   phone_recorder_jdbc_url: jdbc:mysql://192.168.1.23:3306/PZDF_RMS?useUnicode=true&characterEncoding=utf8&autoReconnect=true&rewriteBatchedStatements=TRUE
   phone_recorder_jdbc_driver_name: com.mysql.jdbc.Driver
