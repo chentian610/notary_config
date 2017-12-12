@@ -107,7 +107,7 @@ webRemotConf:
     winPath: D:\\gongzheng
     linPath: /root/appserver/order_service
 web:
-  notary_short_name: 易公证
+  notary_short_name: 易公正
   notary_full_name: 北京天成安信
   notary_phone: 0571-8772****
   logo_img: images/logo_ygz.png
@@ -115,12 +115,13 @@ web:
   notary_index_img_prefix: images/comLogin/myself-yanshi/
   notary_login_title: 易公正身份识别系统
   notary_login_desc: 快速便捷  安全专业
-  register_code: 易公证
+  register_code: 易公正
   phone_recorder_jdbc_url: jdbc:mysql://192.168.1.23:3306/PZDF_RMS?useUnicode=true&characterEncoding=utf8&autoReconnect=true&rewriteBatchedStatements=TRUE
   phone_recorder_jdbc_driver_name: com.mysql.jdbc.Driver
   phone_recorder_jdbc_user: root
   phone_recorder_jdbc_password: 1moodadmin
   phone_recorder_jdbc_dhly: DHLY
+  phantomjs: /root/tceng/phantomjs-2.1.1-linux-x86_64/bin/phantomjs
 
 multipart:
   maxFileSize: 200Mb
