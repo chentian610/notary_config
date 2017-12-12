@@ -122,6 +122,7 @@ web:
   phone_recorder_jdbc_password: 1moodadmin
   phone_recorder_jdbc_dhly: DHLY
   phantomjs: /root/tceng/phantomjs-2.1.1-linux-x86_64/bin/phantomjs
+  screenshot_path: /root/tceng/phantomjs-2.1.1-linux-x86_64/bin/screenshot.js
 
 multipart:
   maxFileSize: 200Mb
