@@ -7,9 +7,9 @@ spring:
     index: 0
 
   datasource:
-    url: jdbc:mysql://192.168.1.23:3306/product_service
+    url: jdbc:mysql://127.0.0.1:3306/skyfaith-product
     username: root
-    password: 1moodadmin
+    password: dkux8a2ls.;Yhs-s8
     testWhileIdle: true
     validationQuery: SELECT 1
 

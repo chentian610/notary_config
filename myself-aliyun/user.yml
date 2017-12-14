@@ -7,7 +7,7 @@ spring:
     index: 0
 
   datasource:
-    url: jdbc:mysql://192.168.1.23:3306/user_service?characterEncoding=utf-8
+    url: jdbc:mysql://127.0.0.1:3306/skyfaith-user?characterEncoding=utf-8
     username: root
     password: dkux8a2ls.;Yhs-s8
     testWhileIdle: true
