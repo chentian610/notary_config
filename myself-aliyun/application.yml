@@ -49,7 +49,7 @@ customconf:
   user:
     serverurl: http://122.228.11.110:23101
     auth:
-      apiurl: http://192.168.1.21:7071
+      apiurl: http://122.228.11.110:7071
       granttype: client_credentials
       clientid: hangzxhNotarialOffice
       clientsecret: e43085c4f06fd664429a8ac4d1f6ad66
@@ -107,8 +107,8 @@ webRemotConf:
     winPath: D:\\gongzheng
     linPath: /root/appserver/order_service
 web:
-  notary_short_name: XX公证
-  notary_full_name: 杭州XXX公证处
+  notary_short_name: 易公证
+  notary_full_name: 杭州易公正
   notary_phone: 0571-8772****
   logo_img: images/logo_ygz.png
   notary_index_css_uri: css/comLogin/jiaxing-yutian.css
